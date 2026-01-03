@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
-import aboutImg from "../assets/header.jpg"; // Ensure this image exists in your assets folder
+import aboutImg from "../assets/header.JPG";
 
 export default function About() {
   return (

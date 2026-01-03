@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 import SubjectCard from "../components/SubjectCard";
 import subjects from "../data/subjects";
-import headerImg from "../assets/header.jpg";
+import headerImg from "../assets/header.JPG";
 
 export default function Home() {
   // Get unique categories dynamically from subjects

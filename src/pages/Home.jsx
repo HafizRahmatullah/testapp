@@ -129,10 +129,10 @@ export default function Home() {
     {/* Example Book Card */}
     <div className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition text-center">
       <h3 className="text-lg font-semibold text-blue-700">
-        Biology Book
+        FUll Book
       </h3>
       <p className="text-sm text-gray-600 mt-2">
-        Comprehensive guide for Pre-Medical students.
+        Comprehensive guide for USAT students.
       </p>
       <a
         href="/pdfs/USAT Book.pdf"

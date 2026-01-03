@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+body {
+  font-display: swap;
+}
+/* index.css – if you load custom fonts */
+@font-face {
+  font-family: 'YourFont';
+  src: url('/fonts/YourFont.woff2') format('woff2');
+  font-display: swap;
+}
+

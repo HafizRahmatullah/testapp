@@ -12,11 +12,10 @@ export default function Home() {
     <div>
       {/* ---------- SEO META TAGS ---------- */}
       <Helmet>
-        <title>USAT Preparation Online | Free MCQs, PDFs & Study Guide</title>
-        <meta
-          name="description"
-          content="Prepare for the USAT exam with subject-wise MCQs, free study PDFs, and structured preparation for Pre-Engineering, Pre-Medical, and Arts students."
-        />
+        <title>USAT Preparation 2026 | Free MCQs, Past Papers, PDFs & Online Practice Tests</title>
+        <meta 
+        name="description" content="USAT Preparation 2026 – Free subject-wise MCQs, past papers, PDFs & study guides for Pre-Engineering, Pre-Medical & Arts students. Practice online tests and boost your exam success."/>
+
 
         {/* Open Graph */}
         <meta
@@ -28,8 +27,8 @@ export default function Home() {
           content="Prepare for the USAT exam with smart MCQs, free PDFs, and subject-wise practice for Pre-Engineering, Pre-Medical, and Arts students."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://yourwebsite.com" />
-        <meta property="og:image" content="https://yourwebsite.com/og-image.jpg" />
+        <meta property="og:url" content="https://testpoint2.com" />
+        <meta property="og:image" content="https://testpoint2.com/og-image.jpg" />
         <meta property="og:site_name" content="USAT Preparation Platform" />
 
         {/* Twitter */}
@@ -44,7 +43,7 @@ export default function Home() {
         />
         <meta
           name="twitter:image"
-          content="https://yourwebsite.com/og-image.jpg"
+          content="https://testpoint2.com/og-image.jpg"
         />
 
         {/* Structured Data (Schema.org) */}
@@ -53,7 +52,7 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "EducationalOrganization",
             name: "USAT Preparation Platform",
-            url: "https://yourdomain.com",
+            url: "https://testpoint2.com",
             description:
               "Free USAT preparation platform with MCQs, PDFs, and subject-wise practice.",
           })}
@@ -111,7 +110,7 @@ export default function Home() {
   <img
     src={headerImg}
     alt="Students preparing for USAT exam"
-     className="w-full h-full object-cover rounded-xl shadow-lg" // ✅ correct 
+     className="w-full h-full object-cover rounded-xl shadow-lg"  
      loading="eager" 
      
   />

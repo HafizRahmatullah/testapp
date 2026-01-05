@@ -17,7 +17,7 @@ export default function SubjectDetails() {
 
   const pageTitle = `${subject.name} USAT Preparation | Free MCQs & PDF`;
   const pageDescription = `Prepare ${subject.name} for the USAT exam with free MCQs, practice questions, and downloadable PDFs. Improve your score with structured study material.`;
-  const pageUrl = `https://yourdomain.com/subject/${slug}`;
+  const pageUrl = `https://testpoint2.com/subject/${slug}`;
 
   return (
     <div className="container mx-auto py-10 px-4 space-y-8">
@@ -52,7 +52,7 @@ export default function SubjectDetails() {
             "provider": {
               "@type": "EducationalOrganization",
               "name": "USAT Preparation Platform",
-              "url": "https://yourdomain.com"
+              "url": "https://testpoint2.com"
             }
           })}
         </script>
@@ -66,7 +66,7 @@ export default function SubjectDetails() {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://yourdomain.com"
+                "item": "https://testpoint2.com"
               },
               {
                 "@type": "ListItem",

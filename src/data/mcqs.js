@@ -5949,11 +5949,5 @@ export const mcqsBySubject = (subjectName = "Subject") => {
     }));
   }
 
-  // Fallback: generate 40 sample questions
-  // return Array.from({ length: 40 }).map((_, i) => ({
-  //   id: i + 1,
-  //   question: `${subjectName}: Sample question ${i + 1}?`,
-  //   options: ["Option A", "Option B", "Option C", "Option D"],
-  //   answerIndex: Math.floor(Math.random() * 4),
-  // }));
+ 
 };

@@ -14,8 +14,6 @@ export default function Navbar() {
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-30">
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5264108454091078"
-     crossorigin="anonymous"></script>
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
         <Link to="/" className="text-xl font-bold text-blue-700">USAT Prep</Link>
 

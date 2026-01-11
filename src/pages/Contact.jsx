@@ -6,11 +6,10 @@ export default function Contact() {
     <>
       {/* ---------- SEO META TAGS ---------- */}
       <Helmet>
-        <title>Contact Us | USAT Exam Preparation Support</title>
-        <meta
-          name="description"
-          content="Contact us for USAT preparation support, feedback, or technical assistance. We are here to help you prepare better and smarter for your exam."
-        />
+        <title>Contact Us | USAT Online Preparation Support</title>
+
+<meta name="description" content="Need help with USAT preparation? Contact us for support, feedback, syllabus guidance & technical assistance. Prepare smarter with us."/>
+
       </Helmet>
 
       {/* ---------- CONTACT SECTION ---------- */}
@@ -18,32 +17,48 @@ export default function Contact() {
   <div className="container mx-auto grid lg:grid-cols-2 gap-12 px-4 items-start">
 
     {/* ---------- LEFT SIDE CONTENT ---------- */}
-    <div className="space-y-6">
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-900">
-        📞 Get in Touch
-      </h1>
+   <div className="space-y-6">
+  <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-900">
+    📞 Contact Us – USAT Online Preparation Support
+  </h1>
 
-      <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
-        If you have questions, suggestions, or feedback regarding our USAT preparation resources,
-        feel free to contact us. We value student input and aim to improve our platform based on
-        real learner needs.
-      </p>
+  <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
+    If you have questions, suggestions, or feedback regarding our
+    <strong> USAT online preparation</strong>, MCQs, mock tests, or
+    USAT past papers PDF, feel free to contact us. We are here to support
+    students with the best USAT exam preparation resources.
+  </p>
 
-      <div>
-        <h2 className="text-xl sm:text-2xl font-semibold text-blue-800 mb-3">
-          You can contact us for:
-        </h2>
-        <ul className="list-disc list-inside text-gray-700 space-y-2">
-          <li>Content corrections or suggestions</li>
-          <li>Technical issues on the website</li>
-          <li>General inquiries related to USAT preparation</li>
-        </ul>
-      </div>
+  <div>
+    <h2 className="text-xl sm:text-2xl font-semibold text-blue-800 mb-3">
+      You can contact us for:
+    </h2>
 
-      <p className="text-gray-600 italic">
-        We usually respond within <span className="font-semibold">24–48 hours</span>.
-      </p>
-    </div>
+    <ul className="list-disc list-inside text-gray-700 space-y-2">
+
+      <li>
+        Corrections or suggestions for
+        <strong> USAT MCQs with answers</strong>
+      </li>
+
+      <li>
+        Technical issues related to
+        <strong> USAT online mock tests</strong>
+      </li>
+
+      <li>
+        General inquiries about
+        <strong> USAT exam preparation in Pakistan</strong>
+      </li>
+
+    </ul>
+  </div>
+
+  <p className="text-gray-600 italic">
+    Our support team usually responds within
+    <span className="font-semibold"> 24–48 hours</span>.
+  </p>
+</div>
 
     {/* ---------- RIGHT SIDE FORM ---------- */}
     <div className="space-y-6 shadow-lg rounded-lg p-6 bg-white">

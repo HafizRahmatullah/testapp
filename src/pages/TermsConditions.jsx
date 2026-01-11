@@ -11,8 +11,13 @@ export default function TermsConditions() {
     <>
       {/* ================= SEO META ================= */}
       <Helmet>
-        <title>{pageTitle}</title>
-        <meta name="description" content={pageDescription} />
+        <title>{pageTitle} | USAT Online Preparation</title>
+
+<meta name="description" content={`${pageDescription} - Free USAT MCQs, mock tests & past papers PDF.`}/>
+
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href={pageUrl} />
+
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href={pageUrl} />
 
@@ -30,68 +35,83 @@ export default function TermsConditions() {
 
       {/* ================= CONTENT ================= */}
       <section id="terms" className="py-16 bg-white">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8">
 
-          <div className="space-y-6 shadow-lg rounded-lg p-8 bg-white">
-            
-            {/* Heading */}
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-900">
-              📜 Terms & Conditions
-            </h1>
+    <div className="space-y-6 shadow-lg rounded-lg p-8 bg-white">
+      
+      {/* Heading */}
+      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-900">
+        📜 Terms & Conditions – USAT Online Preparation Platform
+      </h1>
 
-            {/* Intro */}
-            <p className="text-gray-700 text-lg leading-relaxed">
-              By accessing and using the USAT Preparation Platform, you agree to
-              comply with the following terms and conditions. These terms are
-              designed to ensure a safe and productive learning environment.
-            </p>
+      {/* Intro */}
+      <p className="text-gray-700 text-lg leading-relaxed">
+        By accessing and using our
+        <strong> USAT online preparation website</strong>, you agree to
+        comply with these terms and conditions. These rules ensure a safe,
+        reliable, and effective <strong>USAT exam preparation</strong>
+        environment for all students.
+      </p>
 
-            {/* Usage */}
-            <div>
-              <h2 className="text-2xl font-semibold text-blue-800 mb-3">
-                Use of Content
-              </h2>
-              <p className="text-gray-700 leading-relaxed">
-                All study materials, MCQs, and PDFs provided on this website are
-                for educational and exam preparation purposes only.
-                Unauthorized copying, reproduction, or redistribution of content
-                is strictly prohibited.
-              </p>
-            </div>
+      {/* Usage */}
+      <div>
+        <h2 className="text-2xl font-semibold text-blue-800 mb-3">
+          Use of Content
+        </h2>
+        <p className="text-gray-700 leading-relaxed">
+          All <strong>USAT study material</strong>, MCQs with answers,
+          online mock tests, and <strong>USAT past papers PDF</strong>
+          provided on this platform are for educational purposes only.
+          Unauthorized copying, reproduction, or redistribution is prohibited.
+        </p>
+      </div>
 
-            {/* User Responsibilities */}
-            <div>
-              <h2 className="text-2xl font-semibold text-blue-800 mb-3">
-                User Responsibilities
-              </h2>
-              <ul className="list-disc list-inside text-gray-700 space-y-2">
-                <li>Do not misuse or attempt to harm the website</li>
-                <li>Do not use the platform for illegal or unethical activities</li>
-                <li>Verify information independently before relying on it</li>
-              </ul>
-            </div>
+      {/* User Responsibilities */}
+      <div>
+        <h2 className="text-2xl font-semibold text-blue-800 mb-3">
+          User Responsibilities
+        </h2>
+        <ul className="list-disc list-inside text-gray-700 space-y-2">
 
-            {/* Limitation */}
-            <div>
-              <h2 className="text-2xl font-semibold text-blue-800 mb-3">
-                Limitation of Liability
-              </h2>
-              <p className="text-gray-700 leading-relaxed">
-                We do not guarantee exam results or accuracy of all materials.
-                The use of this website is at your own risk.
-              </p>
-            </div>
+          <li>
+            Do not misuse or attempt to harm this
+            <strong> USAT preparation platform</strong>
+          </li>
 
-            {/* Updates */}
-            <p className="text-gray-600 italic">
-              These terms may be updated periodically without prior notice.
-              Continued use of the website indicates acceptance of the revised
-              terms.
-            </p>
+          <li>
+            Do not use the website for illegal or unethical activities
+          </li>
 
-          </div>
-        </div>
-      </section>
+          <li>
+            Verify <strong>USAT exam information</strong> from official sources
+          </li>
+
+        </ul>
+      </div>
+
+      {/* Limitation */}
+      <div>
+        <h2 className="text-2xl font-semibold text-blue-800 mb-3">
+          Limitation of Liability
+        </h2>
+        <p className="text-gray-700 leading-relaxed">
+          We do not guarantee exam results, rankings, or the complete accuracy
+          of all <strong>USAT preparation material</strong>.
+          Use of this website is at your own risk.
+        </p>
+      </div>
+
+      {/* Updates */}
+      <p className="text-gray-600 italic">
+        These terms may be updated periodically. Continued use of this
+        <strong> USAT online preparation platform</strong>
+        indicates acceptance of the revised terms.
+      </p>
+
+    </div>
+  </div>
+</section>
+
     </>
   );
 }

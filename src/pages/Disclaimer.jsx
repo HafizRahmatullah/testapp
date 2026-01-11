@@ -6,11 +6,10 @@ export default function Disclaimer() {
     <>
       {/* ---------- SEO META TAGS ---------- */}
       <Helmet>
-        <title>Disclaimer | Independent USAT Preparation Resource</title>
-        <meta
-          name="description"
-          content="This USAT preparation website is an independent educational resource and is not affiliated with NTS or any official testing authority."
-        />
+        <title>Disclaimer | USAT Exam Preparation Website</title>
+
+<meta name="description" content="This is an independent USAT exam preparation website. We are not affiliated with NTS or any official testing authority."/>
+
       </Helmet>
 
       {/* ---------- DISCLAIMER SECTION ---------- */}
@@ -19,29 +18,34 @@ export default function Disclaimer() {
 
           <div className="card space-y-6 shadow-lg rounded-lg p-8">
             
-            {/* ---------- HEADING ---------- */}
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-900">
-              ⚠️ Disclaimer
-            </h1>
+  {/* ---------- HEADING ---------- */}
+  <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-900">
+    ⚠️ Disclaimer – USAT Preparation Website
+  </h1>
 
-            {/* ---------- DESCRIPTION ---------- */}
-            <p className="text-gray-700 text-lg leading-relaxed">
-              This website is an independent educational resource and is not officially affiliated 
-              with NTS or any university conducting the USAT exam.
-            </p>
+  {/* ---------- DESCRIPTION ---------- */}
+  <p className="text-gray-700 text-lg leading-relaxed">
+    This website is an independent <strong>USAT preparation platform</strong> and is not
+    officially affiliated with NTS, HEC, or any university conducting the
+    Undergraduate Studies Admission Test (USAT).
+  </p>
 
-            {/* ---------- ACCURACY NOTE ---------- */}
-            <p className="text-gray-700 text-lg leading-relaxed">
-              While we strive to ensure accuracy, we do not guarantee that all content is error-free 
-              or fully aligned with future exam changes. Students are advised to verify information 
-              with official sources.
-            </p>
+  {/* ---------- ACCURACY NOTE ---------- */}
+  <p className="text-gray-700 text-lg leading-relaxed">
+    While we strive to provide accurate
+    <strong> USAT study material</strong>, MCQs, online mock tests, and
+    <strong> USAT past papers PDF</strong>, we do not guarantee that all content is
+    error-free or fully aligned with future USAT exam pattern changes.
+    Students are advised to verify information from official sources.
+  </p>
 
-            {/* ---------- USER RESPONSIBILITY ---------- */}
-            <p className="text-gray-600 italic">
-              Use of this website is entirely at your own discretion.
-            </p>
-          </div>
+  {/* ---------- USER RESPONSIBILITY ---------- */}
+  <p className="text-gray-600 italic">
+    Use of this <strong>USAT online preparation website</strong> is entirely at your own discretion.
+  </p>
+
+</div>
+
         </div>
       </section>
     </>

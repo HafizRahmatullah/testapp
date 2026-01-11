@@ -12,9 +12,9 @@ export default function Home() {
     <div>
       {/* ---------- SEO META TAGS ---------- */}
       <Helmet>
-        <title>USAT Preparation 2026 | Free MCQs, Past Papers, PDFs & Online Practice Tests</title>
-        <meta 
-        name="description" content="USAT Preparation 2026 – Free subject-wise MCQs, past papers, PDFs & study guides for Pre-Engineering, Pre-Medical & Arts students. Practice online tests and boost your exam success."/>
+        <title>USAT Preparation Online 2026 | Free MCQs, Past Papers PDF & Mock Tests</title>
+
+<meta name="description" content="Best USAT preparation online 2026. Free subject-wise MCQs with answers, USAT past papers PDF, mock tests & study material for Pre-Medical, Pre-Engineering & Arts students in Pakistan."/>
 
 
         {/* Open Graph */}
@@ -121,17 +121,16 @@ export default function Home() {
   
 <section className="mt-12 text-center px-5">
   <h2 className="text-4xl font-bold text-blue-900 mb-6">
-    📖 Recommended Books
+    📖 Recommended USAT Preparation Books (Free PDF)
   </h2>
 
   <div className="grid grid-cols-1 gap-6">
-    {/* Example Book Card */}
     <div className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition text-center">
       <h3 className="text-lg font-semibold text-blue-700">
-        FUll Book
+        Complete USAT Preparation Book PDF
       </h3>
       <p className="text-sm text-gray-600 mt-2">
-        Comprehensive guide for USAT students.
+        Best USAT study material free download. Covers syllabus, MCQs & practice tests.
       </p>
       <a
         href="/pdfs/USAT Book.pdf"
@@ -139,7 +138,7 @@ export default function Home() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Download Book
+        Download USAT Book PDF
       </a>
     </div>
   </div>
@@ -148,101 +147,103 @@ export default function Home() {
 
 <section className="mt-10 px-5">
   <h2 className="text-4xl font-bold text-blue-900 mb-6 text-center">
-    📚 Past Papers
+    📚 USAT Past Papers PDF Free Download
   </h2>
 
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-    {/* Example Past Paper Cards */}
+
     <div className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
       <h3 className="text-lg font-semibold text-blue-700">
-        USAT PAST PAPER – 2019
+        USAT Past Paper 2019 (Pre-Medical)
       </h3>
       <p className="text-sm text-gray-600 mt-2">
-        Practice past paper questions from Pre-Medical section.
+        Download USAT 2019 past paper PDF with real exam questions.
       </p>
       <a
         href="/pdfs/Hec 2019 paper.pdf"
         className="inline-block mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg"
       >
-        View Paper
+        View USAT 2019 Paper
       </a>
     </div>
 
     <div className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
       <h3 className="text-lg font-semibold text-blue-700">
-        USAT PAST PAPER – 2020
+        USAT Past Paper 2020 (Chemistry)
       </h3>
       <p className="text-sm text-gray-600 mt-2">
-        Solve past paper questions from Chemistry section.
+        Solve USAT 2020 paper PDF for chemistry preparation.
       </p>
       <a
         href="/pdfs/HEC 2020 Paper(1).pdf"
         className="inline-block mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg"
       >
-        View Paper
+        View USAT 2020 Paper
       </a>
     </div>
 
     <div className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
       <h3 className="text-lg font-semibold text-blue-700">
-        USAT PAST PAPER – 2022
+        USAT Past Paper 2022 (Pre-Medical)
       </h3>
       <p className="text-sm text-gray-600 mt-2">
-        Practice past paper questions from Pre-Medical section.
+        Practice USAT 2022 MCQs from real exam.
       </p>
       <a
         href="/pdfs/Hec 2022 paper-2.pdf"
         className="inline-block mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg"
       >
-        View Paper
+        View USAT 2022 Paper
       </a>
     </div>
-     <div className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
+
+    <div className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
       <h3 className="text-lg font-semibold text-blue-700">
-        USAT PAST PAPER – 2023
+        USAT Past Paper 2023 (Pre-Medical)
       </h3>
       <p className="text-sm text-gray-600 mt-2">
-       Practice past paper questions from Pre-Medical section.
+        Download USAT 2023 complete paper PDF.
       </p>
       <a
         href="/pdfs/HEC Complete paper pre medical 2023.pdf"
         className="inline-block mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg"
       >
-        View Paper
+        View USAT 2023 Paper
       </a>
     </div>
 
-     <div className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
+    <div className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
       <h3 className="text-lg font-semibold text-blue-700">
-        USAT  All PAST PAPER 
+        USAT All Past Papers PDF (Complete Set)
       </h3>
       <p className="text-sm text-gray-600 mt-2">
-        Practice past paper questions from All section.
+        Download all USAT previous papers PDF free.
       </p>
       <a
         href="/pdfs/Usat All previous past papers pdf .pdf"
         className="inline-block mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg"
       >
-        View Paper
+        Download All Papers
       </a>
     </div>
 
-     <div className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
+    <div className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
       <h3 className="text-lg font-semibold text-blue-700">
-        USAT All PAST PAPER
+        USAT All Past Papers PDF (Alternate)
       </h3>
       <p className="text-sm text-gray-600 mt-2">
-         Practice past paper questions from All section.
+        Free USAT past papers for online preparation.
       </p>
       <a
         href="/pdfs/Usat All previous past papers pdf 2.pdf"
         className="inline-block mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg"
       >
-        View Paper
+        Download Papers
       </a>
     </div>
   </div>
 </section>
+
 
 </section>
 
@@ -250,52 +251,60 @@ export default function Home() {
 
 
       {/* ---------- ABOUT SECTION ---------- */}
-      <section id="about" className="px- py-16 bg-white ">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+<section id="about" className="py-16 bg-white">
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8">
 
-          <h2 className="text-4xl font-bold text-blue-900 mb-6">
-            Prepare Smarter for the USAT Exam
-          </h2>
-          <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-            Our USAT preparation platform is designed to help students succeed through structured
-            learning, concept-based practice, and real exam-style MCQs. Whether you are applying for
-            engineering, medical, arts, or social sciences programs, we provide the right resources
-            to strengthen your fundamentals and boost your confidence.
-          </p>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-6 text-left">
-            <div className="p-6 bg-blue-50 rounded-lg shadow hover:shadow-md transition">
-              <h3 className="font-semibold text-blue-800 mb-2">
-                📘 Subject-wise USAT MCQs
-              </h3>
-              <p className="text-gray-600">
-                Practice with detailed explanations for each question.
-              </p>
-            </div>
-            <div className="p-6 bg-blue-50 rounded-lg shadow hover:shadow-md transition">
-              <h3 className="font-semibold text-blue-800 mb-2">📂 Free Study PDFs</h3>
-              <p className="text-gray-600">
-                Download structured notes and guides for offline learning.
-              </p>
-            </div>
-            <div className="p-6 bg-blue-50 rounded-lg shadow hover:shadow-md transition">
-              <h3 className="font-semibold text-blue-800 mb-2">
-                🎯 Category-based Preparation
-              </h3>
-              <p className="text-gray-600">
-                Pre-Engineering, Pre-Medical, Arts & Humanities tailored resources.
-              </p>
-            </div>
-            <div className="p-6 bg-blue-50 rounded-lg shadow hover:shadow-md transition">
-              <h3 className="font-semibold text-blue-800 mb-2">
-                ✨ Distraction-free Learning
-              </h3>
-              <p className="text-gray-600">
-                Clean, simple interface focused on your success.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+    <h2 className="text-4xl font-bold text-blue-900 mb-6">
+      Best USAT Online Preparation Platform in Pakistan
+    </h2>
+
+    <p className="text-lg text-gray-700 mb-8 leading-relaxed">
+      Our USAT preparation platform helps students with online mock tests, chapter-wise MCQs,
+      free past papers PDF and smart study plans. Prepare for USAT 2026 with real exam style
+      questions for Pre-Medical, Pre-Engineering & Arts students.
+    </p>
+
+    <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-6 text-left">
+
+      <div className="p-6 bg-blue-50 rounded-lg shadow hover:shadow-md transition">
+        <h3 className="font-semibold text-blue-800 mb-2">
+          📘 Chapter-wise USAT MCQs with Answers
+        </h3>
+        <p className="text-gray-600">
+          Practice USAT MCQs chapter wise with detailed explanations.
+        </p>
+      </div>
+
+      <div className="p-6 bg-blue-50 rounded-lg shadow hover:shadow-md transition">
+        <h3 className="font-semibold text-blue-800 mb-2">
+          📂 Free USAT Study Material PDF
+        </h3>
+        <p className="text-gray-600">
+          Download free USAT notes, books & syllabus PDF.
+        </p>
+      </div>
+
+      <div className="p-6 bg-blue-50 rounded-lg shadow hover:shadow-md transition">
+        <h3 className="font-semibold text-blue-800 mb-2">
+          🎯 USAT Preparation by Category
+        </h3>
+        <p className="text-gray-600">
+          Pre-Medical, Pre-Engineering & Arts USAT preparation.
+        </p>
+      </div>
+
+      <div className="p-6 bg-blue-50 rounded-lg shadow hover:shadow-md transition">
+        <h3 className="font-semibold text-blue-800 mb-2">
+          ✨ USAT Online Mock Tests
+        </h3>
+        <p className="text-gray-600">
+          Real exam pattern based online USAT mock tests.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
 
       {/* ---------- CATEGORY SECTIONS ---------- */}
       {categories.map((cat) => {

@@ -25,8 +25,10 @@ export default function SubjectDetails() {
       {/* ================= SEO META ================= */}
       <Helmet>
         {/* Basic SEO */}
-        <title>{pageTitle}</title>
-        <meta name="description" content={pageDescription} />
+        <title>{`${subject?.name} USAT MCQs | Online Practice Test & Answers`}</title>
+
+<meta name="description" content={`Practice ${subject?.name} USAT MCQs with answers & explanations. Free online USAT preparation test for better exam performance.`}/>
+
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href={pageUrl} />
 
@@ -82,14 +84,19 @@ export default function SubjectDetails() {
       {/* ================= CONTENT ================= */}
 
       {/* Subject Info */}
-      <div className="space-y-4">
+  <div className="space-y-4">
+
   {/* Heading */}
   <h1 className="text-3xl font-bold text-blue-900">
-    {subject.name} – USAT Preparation
+    {subject.name} – USAT {subject.stream} Preparation 2026
   </h1>
 
   {/* Description */}
-  <p className="text-gray-700">{subject.desc}</p>
+  <p className="text-gray-700">
+    {subject.desc} Practice <strong>USAT solved MCQs</strong>, chapter-wise questions, 
+    and download <strong>USAT past papers PDF</strong> for effective preparation. 
+    Boost your performance with online mock tests and free study material.
+  </p>
 
   {/* Buttons under heading */}
   <div className="flex gap-4 text-center">
@@ -97,7 +104,7 @@ export default function SubjectDetails() {
       to={`/subject/${slug}/mcqs`}
       className="px-5 py-3 bg-blue-600 text-white rounded-lg"
     >
-      Practice MCQs
+      Practice {subject.name} MCQs
     </Link>
 
     {subject.pdfUrl && (
@@ -107,11 +114,13 @@ export default function SubjectDetails() {
         rel="noopener noreferrer"
         className="px-5 py-3 border rounded-lg text-blue-700"
       >
-        Open PDF
+        Download {subject.name} PDF
       </a>
     )}
   </div>
+
 </div>
+
 
       {/* Explore Other Subjects */}
       <div className="bg-white shadow p-6 rounded-xl">

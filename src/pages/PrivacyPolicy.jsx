@@ -7,7 +7,7 @@ export default function PrivacyPolicy() {
     <Helmet>
   <title>Privacy Policy | USAT Online Preparation Platform</title>
 
-<meta name="description" content="Read our privacy policy to learn how we protect your data and provide a secure USAT preparation experience."/>
+<meta name="description" content="Official privacy policy for USAT preparation online platform. Secure access to USAT mock tests, past papers & syllabus PDF."/>
 
 </Helmet>
 

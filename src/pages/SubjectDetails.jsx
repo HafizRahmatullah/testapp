@@ -25,9 +25,9 @@ export default function SubjectDetails() {
       {/* ================= SEO META ================= */}
       <Helmet>
         {/* Basic SEO */}
-        <title>{`${subject?.name} USAT MCQs | Online Practice Test & Answers`}</title>
+       <title>{subject.name} MCQs | USAT Solved MCQs Chapter Wise</title>
 
-<meta name="description" content={`Practice ${subject?.name} USAT MCQs with answers & explanations. Free online USAT preparation test for better exam performance.`}/>
+<meta name="description" content="Practice {subject.name} MCQs for HEC USAT 2026. Free chapter wise solved MCQs, USAT online test Pakistan & preparation resources."/>
 
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href={pageUrl} />

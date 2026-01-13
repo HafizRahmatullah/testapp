@@ -12,9 +12,9 @@ export default function Home() {
     <div>
       {/* ---------- SEO META TAGS ---------- */}
       <Helmet>
-        <title>USAT Preparation Online 2026 | Free MCQs, Past Papers PDF & Mock Tests</title>
+        <title>HEC USAT 2026 | USAT Preparation Online, Mock Test & Past Papers PDF</title>
 
-<meta name="description" content="Best USAT preparation online 2026. Free subject-wise MCQs with answers, USAT past papers PDF, mock tests & study material for Pre-Medical, Pre-Engineering & Arts students in Pakistan."/>
+<meta name="description" content="Prepare for HEC USAT 2026 with free USAT online tests, solved MCQs chapter wise, syllabus PDF, registration updates & past papers PDF free download. Best USAT preparation platform in Pakistan."/>
 
 
         {/* Open Graph */}

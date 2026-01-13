@@ -6,9 +6,9 @@ export default function Contact() {
     <>
       {/* ---------- SEO META TAGS ---------- */}
       <Helmet>
-        <title>Contact Us | USAT Online Preparation Support</title>
+  <title>Contact | USAT Preparation Online Support</title>
 
-<meta name="description" content="Need help with USAT preparation? Contact us for support, feedback, syllabus guidance & technical assistance. Prepare smarter with us."/>
+<meta name="description" content="Contact us for HEC USAT 2026 preparation, registration date guidance, mock tests & syllabus PDF help."/>
 
       </Helmet>
 

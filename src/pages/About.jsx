@@ -7,9 +7,9 @@ export default function About() {
     <>
       {/* ---------- SEO META TAGS ---------- */}
       <Helmet>
-        <title>About Us | Best USAT Preparation Platform in Pakistan</title>
+        <title>About | HEC USAT 2026 Preparation Platform Pakistan</title>
 
-<meta name="description" content="Learn about Pakistan's trusted USAT preparation platform. We provide free MCQs, mock tests, past papers PDF & exam-focused study resources."/>
+<meta name="description" content="Learn about our USAT preparation online platform. We provide USAT mock tests, solved MCQs, syllabus PDF & nts usat preparation free resources for Pakistani students."/>
 
       </Helmet>
 

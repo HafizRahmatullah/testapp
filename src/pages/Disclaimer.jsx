@@ -8,7 +8,7 @@ export default function Disclaimer() {
       <Helmet>
         <title>Disclaimer | USAT Exam Preparation Website</title>
 
-<meta name="description" content="This is an independent USAT exam preparation website. We are not affiliated with NTS or any official testing authority."/>
+<meta name="description" content="Official privacy policy for USAT preparation online platform. Secure access to USAT mock tests, past papers & syllabus PDF."/>
 
       </Helmet>
 

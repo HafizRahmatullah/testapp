@@ -13,7 +13,7 @@ export default function TermsConditions() {
       <Helmet>
         <title>{pageTitle} | USAT Online Preparation</title>
 
-<meta name="description" content={`${pageDescription} - Free USAT MCQs, mock tests & past papers PDF.`}/>
+<meta name="description" content="Official privacy policy for USAT preparation online platform. Secure access to USAT mock tests, past papers & syllabus PDF."/>
 
 <meta name="robots" content="index, follow" />
 <link rel="canonical" href={pageUrl} />

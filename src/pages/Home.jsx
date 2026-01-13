@@ -66,44 +66,45 @@ export default function Home() {
 
     {/* -------- LEFT CONTENT -------- */}
     <div className="text-center lg:text-left">
-      <h1
-        className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl
-                   font-bold text-blue-900 leading-tight"
-      >
-        USAT Exam Preparation Platform
-      </h1>
+  <h1
+    className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl
+               font-bold text-blue-900 leading-tight"
+  >
+    USAT Exam Preparation 2026 – Online Mock Tests & Past Papers
+  </h1>
 
-      <p
-        className="mt-4 text-gray-700
-                   text-base sm:text-lg md:text-xl lg:text-2xl"
-      >
-        Study smarter with MCQs, guides, and free downloadable PDFs.
-      </p>
+  <p
+    className="mt-4 text-gray-700
+               text-base sm:text-lg md:text-xl lg:text-2xl"
+  >
+    Study smarter with USAT solved MCQs, free past papers PDF,
+    online mock tests and complete exam preparation guides.
+  </p>
 
-      <div
-        className="mt-6 flex flex-col sm:flex-row gap-4
-                   justify-center lg:justify-start"
-      >
-        <a
-          href="#subjects"
-          className="px-6 py-3 bg-blue-600 text-white
-                     rounded-lg shadow hover:bg-blue-700 transition
-                     text-sm sm:text-base"
-        >
-          Browse Subjects
-        </a>
+  <div
+    className="mt-6 flex flex-col sm:flex-row gap-4
+               justify-center lg:justify-start"
+  >
+    <a
+      href="#subjects"
+      className="px-6 py-3 bg-blue-600 text-white
+                 rounded-lg shadow hover:bg-blue-700 transition
+                 text-sm sm:text-base"
+    >
+      Browse USAT Subjects
+    </a>
 
-        <a
-          href="#about"
-          className="px-6 py-3 border border-blue-600
-                     rounded-lg text-blue-700
-                     hover:bg-blue-100 transition
-                     text-sm sm:text-base"
-        >
-          Learn More
-        </a>
-      </div>
-    </div>
+    <a
+      href="#about"
+      className="px-6 py-3 border border-blue-600
+                 rounded-lg text-blue-700
+                 hover:bg-blue-100 transition
+                 text-sm sm:text-base"
+    >
+      USAT Preparation Guide
+    </a>
+  </div>
+</div>
 
     {/* -------- RIGHT IMAGE -------- */}
     <div className="aspect-[16/9] w-full">
